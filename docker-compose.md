@@ -28,3 +28,8 @@ Delete all containers
 $docker-compose down
 $docker volume prune
 ```
+
+Open url in browser
+
+- List all users `http://localhost:4040/users/list`
+- Add new user in `http://localhost:4040`
