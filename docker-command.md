@@ -1,5 +1,11 @@
 ## Working with Docker command
 
+Clone project
+```
+$git clone https://github.com/up1/demo-docker-nodejs-mysql.git
+$cd demo-docker-nodejs-mysql
+```
+
 #### Step 1 :: Build and run MySQL server
 
 Build image from Dockerfile
