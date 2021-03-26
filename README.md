@@ -16,4 +16,4 @@ $docker container run --rm \
   postman/newman run demo-imc.postman_collection.json
 ```
 
-DNS Name of Host : `host.docker.internal`
+[DNS Name of Host](https://docs.docker.com/docker-for-mac/networking/) : `host.docker.internal`
