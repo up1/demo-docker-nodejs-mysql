@@ -40,10 +40,12 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:4040/users/list",
+					"raw": "http://host.docker.internal:4040/users/list",
 					"protocol": "http",
 					"host": [
-						"localhost"
+						"host",
+						"docker",
+						"internal"
 					],
 					"port": "4040",
 					"path": [
