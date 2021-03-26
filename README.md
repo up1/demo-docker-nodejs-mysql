@@ -15,3 +15,5 @@ $docker container run --rm \
   -v $(pwd)/postman:/etc/newman -t \
   postman/newman run demo-imc.postman_collection.json
 ```
+
+DNS Name of Host : `host.docker.internal`
